@@ -76,17 +76,14 @@ class Screen2 extends StatelessWidget {
                         )),
                         Expanded(
                             child: Center(
-                                child: Hero(
-                          tag: "bmi_result",
-                          child: Text(
-                            "$bmi",
-                            style: TextStyle(
-                              fontSize: 100,
-                              fontWeight: FontWeight.w800,
-                              color: Colors.white,
-                            ),
-                          ),
-                        ))),
+                                child: Text(
+                                  "$bmi",
+                                  style: TextStyle(
+                                    fontSize: 100,
+                                    fontWeight: FontWeight.w800,
+                                    color: Colors.white,
+                                  ),
+                                ))),
                         Expanded(
                             child: Center(
                           child: Text(
